@@ -60,10 +60,10 @@ main {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 300px;
+    width: 250px;
 
    display: inline-block;
-   max-width: 300px;
+   max-width: 250px;
   text-align: center;
   font-family: arial;
     
@@ -122,6 +122,7 @@ main {
 
 .products__card__image {
     position: relative;
+    width: 100%;
 }
 
 .products__card__image .sale{

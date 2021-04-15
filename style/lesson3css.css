@@ -104,9 +104,9 @@ main {
     margin-top: 10px;
 }
 
-.lable {
+.label {
     padding: 4px 15px;
-    background-color: rgb(250, 74, 103);
+    background-color: rgb(145, 248, 120);
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -131,6 +131,12 @@ main {
     top: 10px;
 }
 
+.products__card__image .label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
 
 
 .products__list {
@@ -138,8 +144,3 @@ main {
     flex-wrap: wrap;
 }
 
-.filter-form {
-    position: sticky;
-    top: 50px;
-    background-color: #fff;
-} 

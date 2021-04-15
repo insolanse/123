@@ -16,7 +16,7 @@ body {
 .hero {
 }
 body {
-    background: #bbb url('/assets/img/photo-1485217988980-11786ced9454.jpeg') no-repeat;
+    background: rgb(243, 237, 219) url('/assets/img/photo-1485217988980-11786ced9454.jpeg') no-repeat;
     background-size: contain;
     background-position: center center;
 }
@@ -61,6 +61,13 @@ main {
     padding: 10px;
     margin: 10px;
     width: 300px;
+
+   display: inline-block;
+   max-width: 300px;
+  text-align: center;
+  font-family: arial;
+    
+
 }
 
 .products__card img {
@@ -85,7 +92,7 @@ main {
 .products__card__price span {
     font-weight: 600;
     font-size: 24px;
-    color: red;
+    color:rgb(250, 74, 103);
 }
 
 .products__card__price s {
@@ -97,9 +104,17 @@ main {
     margin-top: 10px;
 }
 
+.lable {
+    padding: 4px 15px;
+    background-color: rgb(250, 74, 103);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
 .sale {
     padding: 4px 15px;
-    background-color: red;
+    background-color: rgb(250, 74, 103);
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -116,11 +131,6 @@ main {
 }
 
 
-.filer {
-    width: 300px;
-    height: 500px;
-    background-color: red;
-}
 
 .products__list {
     display: flex;

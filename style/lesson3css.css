@@ -10,7 +10,7 @@ padding: PT=10px PX=30px PB50px;
 html,
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #fefefe;
+    background-color: rgb(252, 247, 247);
 }
 
 .hero {
@@ -22,7 +22,7 @@ body {
 }
 
 .d-block {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 1px;
     padding: 10px;
 }
@@ -39,7 +39,7 @@ header.header {
     padding: 10px;
     display: flex;
     justify-content: center;
-    background-color: #eee;
+    background-color: rgb(238, 238, 238);
     z-index: 9;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .products__card {
-    border: 1px solid #d8d8d8;
+    border: 1px solid rgb(216, 216, 216);
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -77,8 +77,8 @@ main {
 .products__card a.products__card-link {
     padding: 4px;
     border-radius: 2px;
-    background-color: #1445a0;
-    color: #fff;
+    background-color: rgb(20, 69, 160);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ main {
 
 .products__card__price s {
     font-size: 14px;
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 
 .products__card__buttons {
@@ -107,7 +107,7 @@ main {
 .label {
     padding: 4px 15px;
     background-color: rgb(145, 248, 120);
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: 600;
 
@@ -115,7 +115,7 @@ main {
 .sale {
     padding: 4px 15px;
     background-color: rgb(250, 74, 103);
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: 600;
 }

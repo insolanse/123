@@ -6,6 +6,11 @@
   width: 30%;
 }
 
+h1 {
+  justify-content: center;
+  text-align: center;
+}
+
 h3 {
   justify-content: center;
   text-align: center;
@@ -45,6 +50,7 @@ h3 {
 }
 .product_list {
     display: flex;
+    justify-content: center;
 
 }
 .footer {

@@ -58,5 +58,14 @@
     width: 100%;
     text-indent: 15px;
     flex: 0 0 auto;
-    
 } 
+
+.footer__about{
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer__contacts{
+    padding: 10px;
+    margin: 10px;
+}

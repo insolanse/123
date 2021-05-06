@@ -5,7 +5,8 @@ margin: Y X;
 padding: PT=10px PX=30px PB50px;
 */
 * {
-    margin: 0;}
+    margin: 0;
+}
 
 html,
 body {
@@ -15,7 +16,7 @@ body {
 
 
 body {
-    background: rgb(243, 237, 219) url('/assets/img/photo-1485217988980-11786ced9454.jpeg') no-repeat;
+    background: rgb(243, 237, 219);
     background-size: contain;
     background-position: center center;
 }

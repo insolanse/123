@@ -1,0 +1,15 @@
+.menu {
+margin: 36px 12px;
+padding: auto;
+}
+
+.icon {
+    width: 20%;
+    justify-content:left;
+    object-fit: contain;
+  }
+
+  .banner {
+    width: 15%;
+    justify-content:center;
+  }

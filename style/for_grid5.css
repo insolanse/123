@@ -10,7 +10,6 @@ body {
   margin: 0 auto;
   grid-template-columns: 3fr 10fr 3fr;
   grid-gap: 20px;
-  flex-wrap: wrap;
 }
 
 .box {
@@ -99,7 +98,7 @@ body {
   width: 100%;
   text-indent: 15px;
   flex: 0 0 auto;
-  margin: 50 px 12 px;
+  margin: 20px;
 }
 
 .footer__about {
@@ -112,10 +111,14 @@ body {
   margin: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 1080px) {
-  .wrapper-grid {
+@media (min-width: 320px) and (max-width: 768px) {
+    .wrapper-grid {
+    width: 50%;
     flex-wrap: wrap;
+    overflow-x: hidden;
   }
 }
+
+
 
 @media (orientatin: landskape);

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif
+    color: rgb(247, 234, 174);
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgb(247, 234, 174);
+}
+
+.form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.form-control__checkbox_list b{
+    margin-top: 12px;
+}

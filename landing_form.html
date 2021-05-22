@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style/for_land.css" />
+    <link rel="stylesheet" href="/style/for_land_form.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -68,48 +68,46 @@
                     </div>
                 </section>
                 <div class="form">
-                          <div class="card__pict1"><img src="/images/kozhanye-kurtki-zhenskie-foto_51.jpg" alt="Кожаная косуха" srcset=""></div>
-                        </div>  
-
                         <div class="form-wrap">
-                          <h1>Предзаказ</h1>
+                          <div class="pre-order">Предзаказ</div>
                       <form action="URL" class="form">
                           <div class="form-control">
                               <label for="name">Ваше имя</label>
-                      <input id="name">
+                      <input id="name" required>
                   </div>
+                  <div class="form-control">
+                    <label for="email">email</label>
+                     <input id="email" required>
+                    </div>
                   <div class="form-control form-control__checkbox_list">
                       <b>Цвета</b>
                   <div class="form-control">
-                      <input id="colorRed" type="checkbox">
-                      <label for="colorRed">Красный</label>
-                  
+                      <input id="colorWhite" type="checkbox" name="color" value="white">
+                      <label for="colorWhite">Белый</label>
                   </div>
                   <div class="form-control">
-                      <input id="colorBlue" type="checkbox">
-                  <label for="colorBlue">Синий</label>
+                      <input id="colorBezh" type="checkbox" name="color" value="bezh">
+                  <label for="colorBezh">Бежевый</label>
                   </div>
-                  
                   <div class="form-control">
-                      <input id="colorGreen" type="checkbox">
-                  <label for="colorGreen">Зеленый</label>
-                  </div></div>
-                  
+                      <input id="colorBroun" type="checkbox" name="color" value="broun">
+                  <label for="colorBroun">Коричневый</label>
+                  </div>
+                </div>
                   <div class="form-control form-control__checkbox_list">
                       <b>Материал</b>
                   <div class="form-control">
-                      <input id="leather" type="radio" name="fabric">
-                      <label for="leather">Кожа</label>
-                  
+                      <input id="silk" type="radio" name="fabric" value="silk">
+                      <label for="silk">Шёлк</label>
                   </div>
                   <div class="form-control">
-                      <input id="suede" type="radio" name="fabric">
-                  <label for="suede">Замша</label>
+                      <input id="satin" type="radio" name="fabric" value="satin">
+                  <label for="satin">Атлас</label>
                   </div>
-                  
                   </div>
                   <div class="form-control">
-                      <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="name">Коментарий</label>
+                      <textarea name="" id="" cols="30" rows="5"></textarea>
                       </div>
                       <div class="form-control">
                       <select name="" id="">

@@ -1,0 +1,170 @@
+* {
+    margin: 0;}
+
+html,
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: rgb(252, 247, 247);
+}
+
+.d-block {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 1px;
+    padding: 10px;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+header.header {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+    z-index: 9;
+}
+
+.wrapper {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.products__card {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+
+   display: inline-block;
+   max-width: 250px;
+   text-align: center;
+   font-family: arial;
+}
+
+.products__card img {
+    width: 100%;
+}
+
+.products__card a.products__card-link {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgb(20, 69, 160);
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+.products__card__price {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.products__card__price span {
+    font-weight: 600;
+    font-size: 24px;
+    color:rgb(250, 74, 103);
+}
+
+.products__card__price s {
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+
+.products__card__buttons {
+    margin-top: 10px;
+}
+
+.label {
+    padding: 4px 15px;
+    background-color: rgb(145, 248, 120);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.sale {
+    padding: 4px 15px;
+    background-color: rgb(250, 74, 103);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.products__card__image {
+    position: relative;
+    width: 100%;
+}
+
+.products__card__image .sale{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.products__card__image .label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.body {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif
+    color: rgb(216, 216, 216);;
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: right;
+    align-items: right;
+    width: 20%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgb(216, 216, 216);
+    flex-grow: 4;
+}
+
+.form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.form-control__checkbox_list b{
+    margin-top: 12px;
+}
+
+.h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
